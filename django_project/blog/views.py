@@ -1,6 +1,9 @@
 """
 Blog Controller
 Author: Ayo Ayco
+
+Takes in requests and returns responses accordingly.
+
 """
 
 import datetime
