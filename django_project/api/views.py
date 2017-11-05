@@ -10,6 +10,12 @@ def index(request):
     """ Index view
         This is just a page to show the API is up.
     """
-    return HttpResponse('This is the Blog API. It is working! For API endpoints see documentation.')
+    res = """
+    <html>
+        <h1>This is the Blog API</h1>
+        <h3>For API Endpoints, see documentation.</h3>
+    </html>
+    """
+    return HttpResponse(res)
 
 # API Endpoints
