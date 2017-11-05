@@ -6,7 +6,9 @@ Author: AyoAyco
 
 from django.http import HttpResponse
 
-# Create your views here.
+# API Endpoints
 def index(request):
-    """ Index view """
-    return HttpResponse('This is the Blog API')
+    """ Index view
+        This is just a page to show the API is up.
+    """
+    return HttpResponse('This is the Blog API. It is working! For API endpoints see documentation.')
