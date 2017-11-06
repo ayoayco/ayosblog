@@ -16,6 +16,7 @@ def index(request):
         <h3>For API Endpoints, see documentation.</h3>
     </html>
     """
+
     return HttpResponse(res)
 
 # API Endpoints
